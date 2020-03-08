@@ -1,0 +1,118 @@
+.about {
+  text-align: center;
+  color: darkblue;
+}
+
+.head, h2 {
+  color: darkblue;
+}
+
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Pozicionálás */
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  border-radius: 70%;
+}
+
+.head {
+  font-size: 20px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10%;
+}
+
+.profile-image {
+  margin-top: -5px;
+}
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+body {
+  background: url('assets/dg-holding.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+background-image: url('assets/dg-holding.png');
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+
+img {
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+}
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+img {
+  ...
+  filter: grayscale(50%);
+}
+
+img:hover {
+  ...
+  filter: grayscale(20%);
+  }
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: darkblue;
+}
